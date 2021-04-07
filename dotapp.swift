@@ -43,3 +43,6 @@ class ContentView_Previews: PreviewProvider {
     }
     #endif
 }
+
+
+//In appcode: cmd ;   search: other linker flags      add: "-Xlinker -interposable"   make sure injection is set up right.
