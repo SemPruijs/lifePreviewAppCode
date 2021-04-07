@@ -30,7 +30,7 @@ struct JetbrainsTutorialApp: App {
 }
 
 
-//in life preview app
+//in the view you want to use life preview
 class ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
@@ -45,4 +45,4 @@ class ContentView_Previews: PreviewProvider {
 }
 
 
-//In appcode: cmd ;   search: other linker flags      add: "-Xlinker -interposable"   make sure injection is set up right.
+//In buildsettings in appcode: cmd ;   search: other linker flags      add: "-Xlinker -interposable"   make sure injection is set up right.
